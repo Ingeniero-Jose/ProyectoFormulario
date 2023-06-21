@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    padding: 0;
+    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-check{
+   display:inline-block;
+   justify-content: center;
+   height: 10vh;
+}
+
+
+
+body {
+    background-image: radial-gradient(circle at 44.56% 29.69%, #8ab770 0, #7eb978 3.33%, #71bb80 6.67%, #63bc8a 10%, #54bd94 13.33%, #43be9e 16.67%, #2fbea9 20%, #0dbfb3 23.33%, #00bfbe 26.67%, #00bec8 30%, #00bdd1 33.33%, #00bcda 36.67%, #00bbe2 40%, #00b9e8 43.33%, #1bb7ee 46.67%, #3cb5f2 50%, #54b2f5 53.33%, #69aff6 56.67%, #7cacf6 60%, #8ea8f4 63.33%, #9ea5f1 66.67%, #ada1ed 70%, #bb9de7 73.33%, #c799e0 76.67%, #d296d8 80%, #dc93cf 83.33%, #e490c6 86.67%, #ea8ebc 90%, #ef8cb2 93.33%, #f28ca7 96.67%, #f48c9d 100%);
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form{
+    width: 450px;
+    height: 450px;
+    background-color: turquoise;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.form_input{
+    margin-bottom: 30px;
+}
